@@ -1,8 +1,13 @@
-/*
-.jumbotron {
-  background: url(../img/bg.png) cover no-repeat;
-}
-*/
+.header {
+  height: 100vh; }
+
+.carousel {
+  height: calc(100% - 56px);
+  overflow: hidden; }
+
+.carousel-inner {
+  overflow: visible; }
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors

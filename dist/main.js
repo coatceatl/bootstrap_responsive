@@ -139,7 +139,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _jquery = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n\nvar _jquery2 = _interopRequireDefault(_jquery);\n\n__webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//import 'bootstrap/dist/css/bootstrap.min.css';\n\n(0, _jquery2.default)(document).ready(function () {\n  (0, _jquery2.default)('.carousel').carousel({\n    interval: 2000\n  });\n});\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\nvar _jquery = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n\nvar _jquery2 = _interopRequireDefault(_jquery);\n\n__webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//import 'bootstrap/dist/css/bootstrap.min.css';\n\n(0, _jquery2.default)(document).ready(function () {\n  (0, _jquery2.default)('.carousel').carousel({\n    interval: 5000\n  });\n});\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 

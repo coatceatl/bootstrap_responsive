@@ -1,5 +1,10 @@
-/*
-.jumbotron {
-  background: url(../img/bg.png) cover no-repeat;
+.header {
+  height: 100vh;
 }
-*/
+.carousel {
+  height: calc(100% - 56px);
+  overflow: hidden;
+}
+.carousel-inner {
+  overflow: visible;
+}
