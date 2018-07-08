@@ -2,11 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no'>
     <title>Bootstrap 4 Website Layout</title>
+    <link rel='stylesheet' href='dist/main.css'>
   </head>
   <body>
-    <h1>Bootstrap 4</h1>
+    <header class='header'>
+      <nav class='navbar navbar-expand-lg navbar-light bg-light sticky-top'>
+        <div class='container-fluid'>
+          <a class='navbar-brand' href='#'>Logo</a>
+          <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive'>
+            <span class='navbar-toggler-icon'></span>
+          </button>
+        </div>
+      </nav>
+    </header>
 
 <!-- Navigation -->
 
@@ -47,5 +57,6 @@
 <!--- Footer -->
 
 
+  <script src='dist/main.js'></script >
   </body>
 </html>
