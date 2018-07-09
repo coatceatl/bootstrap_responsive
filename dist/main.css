@@ -1,14 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500,700);
+.header {
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  color: #fff; }
+
 .navbar {
   background: url(463348e537fb856b084cac5bf2945246.png) center center/cover no-repeat; }
 
-.carousel {
-  overflow: hidden; }
-
-.carousel-inner {
-  overflow: visible; }
-
-.carousel-item.active {
-  background-image: linear-gradient(to right, #053885 0%, #007eff 100%); }
+.header-jumbotron {
+  height: calc(100vh - 56px);
+  background: url(998b8f4451e86f29f81f7327a5bcf22a.png) center center/cover no-repeat; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)

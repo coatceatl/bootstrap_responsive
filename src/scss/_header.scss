@@ -1,14 +1,13 @@
+.header {
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
 .navbar {
   background: url(../img/bg-nav.png) center center/cover no-repeat;
 }
-.carousel {
-  overflow: hidden;
+.header-jumbotron {
+  height: calc(100vh - 56px);
+  background: url(../img/bg-crypto.png) center center/cover no-repeat;
 }
-.carousel-inner {
-  overflow: visible;
-}
-.carousel-item {
-  &.active {
-    background-image: linear-gradient(to right, #053885 0%, #007eff 100%);
-  }
-}
+
