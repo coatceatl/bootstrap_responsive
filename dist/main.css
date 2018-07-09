@@ -1,6 +1,9 @@
 .header {
   height: 100vh; }
 
+.navbar {
+  background: url(463348e537fb856b084cac5bf2945246.png) center center/cover no-repeat; }
+
 .carousel {
   height: calc(100% - 56px);
   overflow: hidden; }
