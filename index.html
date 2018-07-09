@@ -4,13 +4,16 @@
     <meta charset="utf-8">
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no'>
     <title>Bootstrap 4 Website Layout</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' />
     <link rel='stylesheet' href='dist/main.css'>
   </head>
   <body>
     <header class='header'>
       <nav class='navbar navbar-expand-lg navbar-light bg-light sticky-top'>
         <div class='container-fluid'>
-          <a class='navbar-brand' href='#'>Logo</a>
+          <a class='navbar-brand' href='#'>
+            <img src='src/img/logo.png' alt='logo' />
+          </a>
           <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive'>
             <span class='navbar-toggler-icon'></span>
           </button>
@@ -82,18 +85,37 @@
       </div>
     </section>
 
-    <section class='welcome-block'>
+    <section class='services'>
       <div class='container-fluid padding'>
-        <div class='row welcome text-center'>
+        <div class='row services text-center'>
           <div class='col-12'>
             <h1 class='display-4'>Built with ease.</h1>
           </div>
           <div class='col-12'>
             <p class='lead'>
-            Welcome to my website tutorail!Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Welcome to my website tutorail! Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis
             sem at nibh elementum imperdiet. Duis sagittis ipsum.
             </p>
+          </div>
+
+          <div class='col-xs-12 col-sm-6 col-md-4'>
+            <i class='fa fa-laptop'></i>
+            <h3>Website Design & Development</h3>
+            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit
+            aenean rhoncus posuere odio in tincidunt.</p>
+          </div>
+          <div class='col-xs-12 col-sm-6 col-md-4'>
+            <i class='fa fa-mobile'></i>
+            <h3>Responsive Web</h3>
+            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit
+            aenean rhoncus posuere odio in tincidunt.</p>
+          </div>
+          <div class='col-xs-12 col-sm-6 col-md-4'>
+            <i class='fa fa-users'></i>
+            <h3>Professional Services</h3>
+            <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit
+            aenean rhoncus posuere odio in tincidunt.</p>
           </div>
         </div>
       </div>
