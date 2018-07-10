@@ -6,6 +6,7 @@ section {
   height: 75px;
   box-shadow: 0 19px 46px #cf182e, inset 0 -3px 0 #d73e4d;
   background-color: #e7273e;
+  margin: 55px 0;
 }
 .visibility {
   z-index: 10;
@@ -15,4 +16,10 @@ section {
 }
 .red {
   color: #e7273e;
+}
+.display-4 {
+  padding-bottom: 50px;
+}
+h3 {
+  padding-bottom: 35px;
 }
