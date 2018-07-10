@@ -1,4 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,500,700);
+section {
+  padding: 50px 0; }
+
+.visibility {
+  z-index: 10; }
+
+.white {
+  color: #fff; }
+
+.red {
+  color: #e7273e; }
+
 .header {
   height: 100vh;
   font-family: 'Poppins', sans-serif;
@@ -10,6 +22,19 @@
 .header-jumbotron {
   height: calc(100vh - 56px);
   background: url(998b8f4451e86f29f81f7327a5bcf22a.png) center center/cover no-repeat; }
+
+.advantage {
+  position: relative;
+  background: url(543328fa260b02f6e3b51f6a93cab4e3.png) center center/cover no-repeat; }
+  .advantage:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.8;
+    background-image: linear-gradient(to right, #053885 0%, #007eff 100%); }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)

@@ -1,0 +1,15 @@
+.advantage {
+  position: relative;
+  background: url(../img/bg-money.png) center center/cover no-repeat;
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.8;
+    background-image: linear-gradient(to right, #053885 0%, #007eff 100%);
+  }
+}
+
