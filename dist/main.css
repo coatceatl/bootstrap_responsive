@@ -2,6 +2,12 @@
 section {
   padding: 50px 0; }
 
+.button {
+  width: 536px;
+  height: 75px;
+  box-shadow: 0 19px 46px #cf182e, inset 0 -3px 0 #d73e4d;
+  background-color: #e7273e; }
+
 .visibility {
   z-index: 10; }
 
@@ -349,7 +355,7 @@ h2, .h2 {
   font-size: 2rem; }
 
 h3, .h3 {
-  font-size: 1.75rem; }
+  font-size: 1.875rem; }
 
 h4, .h4 {
   font-size: 1.5rem; }
@@ -380,7 +386,7 @@ h6, .h6 {
   line-height: 1.2; }
 
 .display-4 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 300;
   line-height: 1.2; }
 
